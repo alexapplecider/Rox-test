@@ -1,6 +1,6 @@
 .order {
   &__top-line {
-    height: 107px;
+    min-height: 107px;
     padding: 8px 0;
     background: url(../img/dark_circles.png) repeat;
     color: #ffffff;
@@ -11,15 +11,27 @@
     text-transform: uppercase;
     letter-spacing: 0.5px;
     text-align: center;
+    @media (min-width: 640px) {
+      font-size: 28px;
+    }
+  }
+  &__top-line-br {
+    display: none;
   }
   &__top-line p:last-child {
     width: 297px;
     margin: 0 auto;
+    font-family: "Museo Sans Cyrl -900";
     line-height: 24px;
+    @media (min-width: 640px) {
+      width: auto;
+      line-height: 40px;
+      font-size: 36px;
+    }
   }
   &__bg {
     position: relative;
-    height: 250px;
+    min-height: 250px;
     background: url(../img/order-bg.jpg) center no-repeat;
     &-watch {
       position: absolute;
@@ -27,8 +39,12 @@
       left: 59%;
       margin-left: -111px;
       width: 222px;
-      height: 100%;
+      min-height: 100%;
       background: url(../img/order-watch.png) center -69px no-repeat;
+    }
+    @media(min-width: 640px) {
+      min-height: 465px;
+      background: url(../img/order-bg-640.jpg) center no-repeat;
     }
   }
   &__form {
@@ -43,6 +59,19 @@
     font-size: 19px;
     font-weight: 400;
     line-height: 23.29px;
+    @media(min-width: 640px) {
+      position: absolute;
+      top: inherit;
+      right: 43%;
+      margin-right: -240px;
+      bottom: -32%;
+      width: 380px;
+      height: 390px;
+      border-radius: 15px;
+      border: 1px solid #666633;
+      background-color: #666633;
+      background-image: linear-gradient(to top, rgba(0, 0, 0, 0.38) 0%, rgba(255, 255, 255, 0) 100%);
+    }
     &-header {
       margin-bottom: 10px;
       text-align: center;
@@ -50,16 +79,22 @@
     & input {
       display: block;
       width: 100%;
+      margin: 0 auto;
       margin-bottom: 15px;
       padding-top: 25px;
       padding-bottom: 23px;
       border-radius: 30px;
       color: #222222;
+      font-family: "Museo Sans Cyrl -300";
       font-size: 18px;
       font-weight: 400;
       line-height: 39.92px;
       text-align: center;
+      outline: none;
+      @media(min-width: 640px) {
+        width: 84%;
+        max-height: 65px;
+      }
     }
   }
 }
-

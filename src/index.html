@@ -11,69 +11,70 @@
   <body class="index">
     <div class="page-wrap">
       <header class="header">
-        <div class="container">
+        <div class="container"></div>
+        <div class="header__text-block">
           <p class="header__red-text">Только сегодня скидка -73%!</p>
           <p class="header__text">До окончания акции осталось:</p>
-          <ul class="timer timer-header">
-            <li><span id="days"> </span><span>дней</span></li>
-            <li><span id="hours"> </span><span>часов</span></li><span class="colon"> :			</span>
-            <li><span id="minutes"> </span><span>минут</span></li><span class="colon"> :			</span>
-            <li><span id="seconds"> </span><span>секунд</span></li>
-          </ul>
         </div>
+        <ul class="timer timer-header">
+          <li><span id="days"> </span><span>дней</span></li>
+          <li><span id="hours"> </span><span>часов</span></li><span class="colon"> :			</span>
+          <li><span id="minutes"> </span><span>минут</span></li><span class="colon"> :			</span>
+          <li><span id="seconds"> </span><span>секунд</span></li>
+        </ul>
       </header>
       <main class="main">
         <section class="item">
           <div class="container">
             <div class="item__rox-clock"></div>
-            <div class="item__name-block">
-              <p>армейские часы «rox»</p>
-              <p>стильный аксессуар для настоящих мужчин</p>
-            </div>
-            <div class="price">
-              <div class="price__old">
-                <p>Старая цена</p>
-                <del>12460 р.</del>
+            <div class="item__info">
+              <div class="item__name-block">
+                <p>армейские часы «rox»</p>
+                <p>стильный аксессуар для настоящих мужчин</p>
               </div>
-              <div class="price__new">
-                <p>Новая цена</p>
-                <p>3490 р.</p>
+              <div class="price">
+                <div class="price__old">
+                  <p>Старая цена</p>
+                  <del>12460 р.</del>
+                </div>
+                <div class="price__new">
+                  <p>Новая цена</p>
+                  <p>3490 р.</p>
+                </div>
+                <button class="btn-order">Заказать со скидкой</button>
               </div>
-              <button class="btn-order">Заказать со скидкой</button>
             </div>
+            <div class="item__photos"><img src="img/photo-1.jpg" alt=""><img src="img/photo-2.jpg" alt=""><img src="img/photo-3.jpg" alt=""></div>
           </div>
         </section>
         <div class="pattern"></div>
         <section class="order">
           <div class="order__top-line">
             <p>Успейте заказать стильные</p>
-            <p>армейские часы «Rox» со скидкой 73%</p>
+            <p>армейские часы «Rox» <br class="order__top-line-br">со скидкой 73%</p>
           </div>
           <div class="order__bg">
             <div class="order__bg-watch"></div>
           </div>
           <div class="order__form">
-            <div class="container">
-              <p class="order__form-header">До окончания акции осталось:</p>
-              <ul class="timer">
-                <li><span id="days2"> </span><span>дней</span></li>
-                <li><span id="hours2"> </span><span>часов</span></li><span class="colon"> :			</span>
-                <li><span id="minutes2"> </span><span>минут</span></li><span class="colon"> :			</span>
-                <li><span id="seconds2"> </span><span>секунд</span></li>
-              </ul>
-              <form action="">
-                <input type="text" placeholder="Как Вас зовут?">
-                <input type="text" placeholder="Ваш номер телефона">
-                <button class="btn-order">Заказать со скидкой</button>
-              </form>
-            </div>
+            <p class="order__form-header">До окончания акции осталось:</p>
+            <ul class="timer">
+              <li><span id="days2"> </span><span>дней</span></li>
+              <li><span id="hours2"> </span><span>часов</span></li><span class="colon"> :			</span>
+              <li><span id="minutes2"> </span><span>минут</span></li><span class="colon"> :			</span>
+              <li><span id="seconds2"> </span><span>секунд</span></li>
+            </ul>
+            <form action="">
+              <input type="text" placeholder="Как Вас зовут?">
+              <input type="text" placeholder="Ваш номер телефона">
+              <button class="btn-order">Заказать со скидкой</button>
+            </form>
           </div>
         </section>
       </main>
       <footer class="footer">
-        <div class="container">
-          <p>OOO "Космо" ОГРН 1127746710189, ИНН 7731432601 127055, г.Москва, улица Палиха, д.10</p><a href="#">Политика конфиденциальности</a>
-        </div>
+        <p>
+           OOO "Космо" ОГРН 1127746710189, ИНН 7731432601 127055, <br>г.Москва, улица Палиха, д.10</p><a href="#">Политика конфиденциальности</a>
       </footer>
     </div>
     <button class="btnScroll"></button>

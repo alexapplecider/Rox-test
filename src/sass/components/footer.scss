@@ -1,6 +1,19 @@
 // FOOTER
 .footer {
   padding-top: 19px;
-  padding-bottom: 39px;
+  padding-bottom: 15px;
+  font-size: 12px;
   text-align: center;
+  & p {
+    width: 204px;
+    margin: 0 auto;  
+  }
+  & a {
+    color: #a5a5a5;
+    font-family: "Museo Sans Cyrl -300";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: underline;
+  }
 }
