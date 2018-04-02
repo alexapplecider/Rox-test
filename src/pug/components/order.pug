@@ -1,0 +1,31 @@
+section.order
+  .order__top-line
+    p Успейте заказать стильные
+    p армейские часы «Rox» со скидкой 73%
+  
+  .order__bg
+    .order__bg-watch
+  .order__form
+    .container
+      p.order__form-header До окончания акции осталось:
+
+      ul.timer
+        li
+          span#days2 
+          span дней
+        li
+          span#hours2 
+          span часов
+        span.colon  :			
+        li
+          span#minutes2 
+          span минут
+        span.colon  :			
+        li
+          span#seconds2 
+          span секунд
+
+      form(action="")
+        input(type="text" placeholder="Как Вас зовут?")
+        input(type="text" placeholder="Ваш номер телефона")
+        button.btn-order Заказать со скидкой

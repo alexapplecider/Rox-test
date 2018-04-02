@@ -1,0 +1,76 @@
+.item {
+  position: relative;
+  height: 330px;
+  height: 600px;
+  background: url(../img/item-bg.jpg) top no-repeat;
+  text-align: center;
+  &__rox-clock {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -177px;
+    width: 349px;
+    height: 330px;
+    background: url(../img/rox.png) no-repeat;
+    background-position: -29px -73px;
+  }
+  &__name-block {
+    position: absolute;
+    bottom: 184px;
+    left: 0;
+    right: 0;
+    padding-top: 13px;
+    padding-bottom: 9px;
+    background-color: #6b6b35;
+    color: #fff;
+    font-family: "Museo Sans Cyrl -300";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: .22px;
+  }
+  &__name-block p:first-child {
+    font-family: "Museo Sans Cyrl -900";
+    text-transform: uppercase;
+    line-height: 39px;
+  }
+  &__name-block p:last-child {
+    width: 247px;
+    margin: 0 auto;
+  }
+}
+
+.price {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 185px;
+  padding-top: 13px;
+  padding-bottom: 23px;
+  background-color: #38392a;
+  font-size: 20px;
+  color: #ffffff;
+  &__old {
+    margin-right: 36px;
+  }
+  &__old,
+  &__new {
+    display: inline-block;
+    vertical-align: top;
+  }
+  &__old del,
+  &__new p:last-child {
+    font-size: 36px;
+  }
+  &__new p:last-child {
+    color: #cbcb75;
+  }
+}
+
+.pattern {
+  width: 100%;
+  height: 61px;
+  margin: 0 auto;
+  background: #e5e5e5 url(../img/ep_naturalwhite.png) repeat;
+}

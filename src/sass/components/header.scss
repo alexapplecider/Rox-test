@@ -1,0 +1,38 @@
+// HEADER
+.header {
+	height: 140px;
+	padding-top: 9px;
+	padding-bottom: 12px;
+	background: #fff;
+	text-align: center;
+	font-family: "Museo Sans Cyrl -900";
+	font-size: 16px;
+	line-height: 26px;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 0.16px;
+	&__red-text {
+		color: #e43521;
+	}
+	&__text {
+		color: #222222;
+	}
+}
+
+.timer-header {
+	margin-bottom: 0;
+	& li {
+		width: 71px;
+		padding-top: 6px;
+		padding-bottom: 3px;
+		background-color: #e53621;
+	}
+	& > li span:first-child { 
+		font-size: 28px;
+		line-height: 25px;
+	}
+	& .colon {
+		color: #000;
+	}
+}
+// HEADER
